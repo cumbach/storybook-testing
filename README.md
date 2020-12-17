@@ -10,6 +10,10 @@ To run Storybook:
 
 Launches Storybook locally
 
+To see Storybook live on Chromatic:
+https://www.chromatic.com/builds?appId=5fdbb54e0d86c500210e4c0b
+https://5fdbb54e0d86c500210e4c0b-grpxvdhrxn.chromatic.com/?path=/story/example-introduction--page
+
 In the project directory, you can run:
 
 ### `yarn start`
