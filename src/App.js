@@ -1,13 +1,17 @@
-import React from 'react';
-import './App.css';
-import Example from './Example.js';
+import React, { Component } from 'react';
+import { Provider } from 'react-redux';
+import store from './lib/redux';
 
-function App() {
-  return (
-    <div className="App">
-      <Example label={'Learn React'}/>
-    </div>
-  );
+import TaskList from './components/TaskList';
+
+class App extends Component {
+  render() {
+    return (
+      <Provider store={store}>
+        <TaskList />
+      </Provider>
+    );
+  }
 }
 
 export default App;
